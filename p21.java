@@ -18,7 +18,7 @@ public class p21{
             else
             {
                 tmp+=i;
-                if(tmp/pos==pos)
+                if((double)tmp/pos==pos)
                 {
                     part++;
                     count=pos-1;
